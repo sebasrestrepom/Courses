@@ -1,0 +1,12 @@
+"use strict";
+var users;
+users = ['luixaviles', 'paparazzi', 'lensqueen'];
+var otherUsers = ['luixavel', 'paparazzi'];
+var picturesTitles;
+picturesTitles = ['favorite sunset', 'vacation time', 'landscape'];
+console.log('first User', users[0]);
+console.log('primer titulo', picturesTitles[0]);
+console.log('users length', users.length);
+users.push('aPlatziUser');
+users.sort();
+console.log('users', users);
